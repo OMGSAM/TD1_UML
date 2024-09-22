@@ -1,0 +1,12 @@
+Un client désire retirer de l'argent en euros ou en dollars
+
+Relation d'association : Il s'agit d'une relation d'interaction entre un client et l'action de retirer de l'argent dans deux devises différentes (euros ou dollars).
+Le stock de billets est insuffisant lors d’un retrait d’argent (pour le système DAB)
+
+Relation de dépendance : Le système DAB (Distributeur Automatique de Billets) dépend du stock de billets disponible pour autoriser un retrait d'argent. Si le stock est insuffisant, l'opération échoue.
+Un client doit s’identifier pour retirer de l’argent (pour le système DAB)
+
+Relation de généralisation/spécialisation ou de contrainte : Ici, il existe une contrainte où un client doit s'identifier (authentification) avant de pouvoir retirer de l'argent. Cela impose une condition préalable pour l'opération de retrait.
+Un enseignant est aussi un étudiant
+
+Relation d'héritage ou de généralisation/spécialisation : Un enseignant peut hériter du rôle d'un étudiant dans certaines situations. Cela peut être vu comme un cas d'héritage où un objet (enseignant) peut également avoir les attributs ou comportements d'un autre objet (étudiant).
